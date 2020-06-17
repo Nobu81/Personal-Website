@@ -1,0 +1,72 @@
+/* Everything */
+.background-grey{
+  background-color: #D6EAF8;
+}
+
+/* First Page */
+.cover{
+  position: relative;
+  text-align: center;
+}
+
+.content{
+  position:absolute;
+  top: 40px;
+  left: 50px;
+  color: white;
+}
+
+.nightpic{
+  width: 100%;
+  height: 725px;
+}
+
+
+/* Second Page */
+.title{
+  text-align: center;
+}
+.profile{
+  max-width: 1280px;
+  padding: 40px 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Third Page*/
+.experience{
+  max-width: 1280px;
+  padding: 40px 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Fourth Page */
+.abilities{
+  max-width: 1280px;
+  padding: 40px 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no-bullet{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ability-score{
+  float: right;
+}
+
+.ability-score2{
+  float: right;
+}
+/* Fifth Page */
+.contact{
+  max-width: 1280px;
+  padding: 40px 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
