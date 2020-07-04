@@ -12,28 +12,36 @@
 
     <!-- icon from fontawsome -->
     <script src="https://kit.fontawesome.com/abf19bcda5.js" crossorigin="anonymous"></script>
-
-
   </head>
 
 
   <body>
 
     <!-- First page - Cover-->
-
-    <div class="cover">
-      <!-- <img class="nightpic" src="https://images.unsplash.com/photo-1415889455891-23bbf19ee5c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="bw_nightscape"> -->
-      <img class = "nightpic" src="image/Noboru.jpg" alt="Noboru pic" height="300px" width="400px">
-      <div class="content">
-        <h1>Noboru Bai</h1>
+    <div class="background-grey">
+      <div class="introduction">
+        <div class="title">
+          Hi, I'm Noboru -
+          <br>
+          I'm a senior studying Management Information Systems at <p><strong>McCombs School of Business at University of Texas - Austin. </strong></p>
+        </div>
       </div>
     </div>
 
+    <!-- Navigation Bar -->
+    <div class="topnav">
+      <a href="#profile">Profile</a>
+      <a href="#experience">Experience</a>
+      <a href="#abilities">Ability</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <p id="profile"></p>
 
     <!-- Second Page - Profile-->
-    <div class="profile">
+    <section class="box">
       <div class="title">
-        <h2>Profile: Noboru Bai</h2>
+        <h2>Profile</h2>
       </div>
 
       <hr>
@@ -42,32 +50,31 @@
         <div class="row">
           <div class="col">
             <h3>About Me</h3>
-            <p>
-              I am a senior at The University of Texas at Austin McCombs School of Business, majoring in Management Information Systems.
-              In addition to my business degree, I specialize in front-end programming as well as data analysis in the back-end.
-              I love encountering new experiences, enjoy challenging myself with knowledge outside of my field and will take any opportunity
-              available to me. While I excel at working independently, I prefer working in a teams as each member can bring fresh ideas to the table.
-              Currently I am preparing to take the Chinese HSK 4 test. During my free time, I enjoy photography, traveling, and running.
-
-            </p>
+            <p>I am experienced in front-end programming as well as data analysis in the back-end. Outside of my business studies, I am pursing a Chinese
+            minor to learn more about the language and cultural interactions. Currently I am preparing to take the Chinese HSK 4 test.</p>
+            <p>I love encountering new experiences, enjoy challenging myself with knowledge outside of my field and will take any opportunity
+            available to me. While I excel at working independently, I prefer working in a team as each member can bring fresh ideas to the table.
+            During my free time, I enjoy photography, traveling, and running.</p>
 
             <p>Email: noborubai@utexas.edu</p>
             <a href="file/resume.pdf">Noboru Bai Resume</a>
           </div>
 
           <div class="col">
-            <img src="image/Noboru3.JPG" alt="Noboru pic 2" height="350px" width="425px">
+            <img class="pic" src="image/Noboru3.JPG" alt="Noboru pic 2" height="350px" width="425px">
 
           </div>
 
         </div>
 
       </div>
-    </div>
+    </section>
+
+    <p id="experience"></p>
 
     <!-- Third Page - Experience`-->
     <div class="background-grey">
-      <div class="experience">
+      <div class="box">
         <div class="title">
           <h2>Experience</h2>
         </div>
@@ -281,8 +288,10 @@
       </div>
     </div>
 
+    <p id="abilities"></p>
+
     <!-- Fourth Page - Ability -->
-    <div class="abilities">
+    <div class="box">
       <div class="title">
         <h2>Abilities</h2>
       </div>
@@ -408,9 +417,9 @@
         <div class="col-md-6">
           <ul class="no-bullet">
             <li>
-              <span>Chinese</span>
+              <span>Chinese(Intermediate)</span>
               <span class="ability-score">
-                Intermediate
+                Inter
               </span>
             </li>
           </ul>
@@ -441,10 +450,15 @@
       </div>
     </div>
 
+    <p id="contact"></p>
+
     <!-- Fifth Page - Contact -->
     <div class="background-grey">
-      <div class="  contact">
-      <h2>Contact</h2>
+      <div class="box">
+
+      <div class="title">
+        <h2>Contact</h2>
+      </div>
 
       <hr>
 
@@ -453,15 +467,15 @@
           <ul class="no-bullet">
             <li>
               <img src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="Linkedin" height="35px" width="35px">
-              <a href="https://www.linkedin.com/in/noborubai/">https://www.linkedin.com/in/noborubai/</a>
+              <a class="link" href="https://www.linkedin.com/in/noborubai/">Linkedin</a>
             </li>
           </ul>
         </div>
         <div class="col-md-6">
           <ul class="no-bullet">
             <li>
-              <img src="https://image.flaticon.com/icons/svg/174/174855.svg" alt="Instagram"  height="35px" width="35px">
-              <a href="https://www.instagram.com/0_ryhpez_0/">https://www.instagram.com/0_ryhpez_0/</a>
+              <img src="https://image.flaticon.com/icons/svg/732/732200.svg" alt="Gmail"  height="35px" width="35px">
+              <a href="mailto:noborubai@utexas.edu" style="text-decoration: none">Email</a>
             </li>
 
           </ul>
